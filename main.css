@@ -14,8 +14,8 @@
     --colorD: #47434A;
     --colorE: #AB9E65;
 
-    --fontTitle: 'Caveat', Arial , cursive;
-    --fontsubTitle: 'Courgette' , Arial , cursive;
+    --fontTitle: 'Caveat', cursive;
+    --fontsubTitle: 'Courgette' , cursive;
 }
 
 body{
@@ -24,14 +24,14 @@ body{
 
 header{
     width: 100%;
-    height: 45vw;
+    height: 35vw;
     background-image: url(images/fundo.png);
     background-position: center;
     background-size: cover;
     max-height: 300px;
     position: relative;
 
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.308);
+    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.479);
 }
 
 header > h1{
@@ -44,11 +44,10 @@ header > h1{
 
     position: relative;
     top: 30%;
-    right: 2%;
 }
 
 header > nav{
-   bottom: 6%;
+   bottom: 7%;
    position: absolute;
 }
 
@@ -59,7 +58,7 @@ nav > a{
     margin-left: 15px;
     text-decoration: none;
 
-    border: 1px solid rgba(255, 255, 255, 0.856);
+    border: 1px solid rgba(255, 255, 255, 0.541);
     background-color: #0c323650;
     color: rgba(255, 255, 255, 0.801);
     font-size: clamp(1em,2vw,1.5em);
@@ -69,24 +68,32 @@ nav > a{
 }
 
 main{
-    background-image: linear-gradient(to bottom,  rgb(22, 21, 21) ,  rgb(26, 25, 25) ,  rgb(37, 35, 35));
+    background-image: url(images/background.jpg);
+    background-size: cover;
 }
 
-main > h2{
+div#destaque{
+    width: 60vw;
+    margin: auto;
+}
+
+#destaque > h2{
     font-size: clamp(2.5em,5vw,4em);
     color: white;
     text-decoration: underline;
     font-family: var(--fontsubTitle);
 
+    background-color: #092427b4;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.555);
+
     text-align: center;
-    margin-right: 5vw;
     padding-top: 5px;
 }
 
 div#video{
     margin: auto;
-    margin-top: 15px;
-    padding-right: 4vw;
+    margin-top: 30px;
     
     width: 55%;
     height: 33vw;
@@ -112,9 +119,9 @@ h3{
     font-size: clamp(1.5em,3vw,3em);
     text-align: center;
 
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 5vw;
+  
 }
 
 a  > img{
@@ -124,7 +131,10 @@ a  > img{
     min-height: 50px;
 
     border-radius: 35px;
-    margin-right: 5vw;
+    padding: 2vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
 }
 
 a > img:hover{
