@@ -16,6 +16,7 @@
 
     --fontTitle: 'Caveat', cursive;
     --fontsubTitle: 'Courgette' , cursive;
+    --fontnormal: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -35,7 +36,7 @@ header{
 }
 
 header > h1{
-    font-family: var(--fontTitle);
+    font-family: var(--fontnormal);
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
     font-style: italic;
@@ -81,7 +82,7 @@ div#destaque{
     font-size: clamp(2.5em,5vw,4em);
     color: white;
     text-decoration: underline;
-    font-family: var(--fontsubTitle);
+    font-family: var(--fontnormal);
 
     background-color: #092427b4;
     border-radius: 0px 0px 30px 30px;
@@ -115,7 +116,7 @@ section{
 
 h3{
     color: white;
-    font-family: var(--fontsubTitle);
+    font-family: var(--fontnormal);
     font-size: clamp(1.5em,3vw,3em);
     text-align: center;
 
