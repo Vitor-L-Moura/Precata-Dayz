@@ -32,7 +32,7 @@ header{
     max-height: 300px;
     position: relative;
 
-    box-shadow: 2px 9px 10px rgba(0, 0, 0, 0.836);
+    box-shadow: 2px 4px 10px rgb(0, 0, 0);
 }
 
 header > h1{
@@ -40,7 +40,7 @@ header > h1{
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
     font-style: italic;
-    font-size: clamp(2.5em,7vw,7em);
+    font-size: clamp(1em,6vw,7em);
     text-align: center;
 
     position: relative;
@@ -62,7 +62,7 @@ nav > a{
     border: 1px solid rgba(255, 255, 255, 0.541);
     background-color: #0c323650;
     color: rgba(255, 255, 255, 0.801);
-    font-size: clamp(1em,2vw,1.5em);
+    font-size: clamp(0.9em,2vw,1.5em);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
 
     border-radius: 3px;
@@ -83,14 +83,14 @@ div#destaque{
 }
 
 #destaque > h2{
-    font-size: clamp(2.5em,5vw,4em);
+    font-size: clamp(1.5em,5vw,4em);
     color: white;
     text-decoration: underline;
     font-family: var(--fontnormal);
 
     background-color: #092427b4;
     border-radius: 0px 0px 30px 30px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.555);
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
 
     text-align: center;
     padding-top: 5px;
@@ -111,7 +111,7 @@ iframe{
     height: 100%;
 
     border: solid 1px white;
-    box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.356);
+    box-shadow: 3px 1px 3px rgb(0, 0, 0);
 }
 
 section{
