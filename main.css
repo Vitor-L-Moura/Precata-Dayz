@@ -36,7 +36,7 @@ header{
 }
 
 header > h1{
-    font-family: var(--fontnormal);
+    font-family: var(--fontTitle);
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
     font-style: italic;
@@ -53,23 +53,26 @@ header > nav{
 }
 
 nav > a{
-    padding: 7px;
+    padding: 3px;
     padding-right: 2vw;
     padding-left: 2vw;
     margin-left: 15px;
     text-decoration: none;
 
     border: 1px solid rgba(255, 255, 255, 0.541);
-    background-color: #0c323650;
-    color: rgba(255, 255, 255, 0.801);
+    background-color: #2f424450;
+    color: rgba(255, 255, 255, 0.788);
     font-size: clamp(0.9em,2vw,1.5em);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.267);
+
+    font-family: var(--fontsubTitle);
 
     border-radius: 3px;
 }
 
 nav > a:hover{
-    background-color: #2bafc050;
+    background-color: #132d3181;
+    color: white;
 }
 
 main{
@@ -86,7 +89,7 @@ div#destaque{
     font-size: clamp(1.5em,5vw,4em);
     color: white;
     text-decoration: underline;
-    font-family: var(--fontnormal);
+    font-family: var(--fontsubTitle);
 
     background-color: #092427b4;
     border-radius: 0px 0px 30px 30px;
@@ -135,14 +138,14 @@ a  > img{
     min-width: 50px;
     min-height: 50px;
 
-    border-radius: 35px;
-    padding: 2vw;
+    border-radius: 35px;    
+    padding: 1vw;
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 20px;
 }
 
 a > img:hover{
-    background-color: #47434A;
+    background-color: #47434aa8;
    
 }
