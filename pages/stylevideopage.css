@@ -23,4 +23,22 @@ body{
     background-image: url(../images/bkvideo.jpg);
     background-size: cover;
     background-attachment: fixed;
+    
+    position: relative;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.616);
+
+    border-radius: 25px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.685);
+    
+
+    position: absolute;
+    margin-top: 25%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    width: 95%;
+    height: 40vw;
 }
